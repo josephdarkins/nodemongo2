@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Time to print out the database
+  for team in data
+    div
+      p #{team.team}
+      p #{team.sport}
